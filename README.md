@@ -57,14 +57,22 @@
   * Вкладки для прямого редактирования `list-general-user.txt` (обход), `list-exclude-user.txt` (исключения) и `ipset-exclude-user.txt`.
   * Удобный поиск по доменам, счетчик активных строк.
   * Окно «Быстрое добавление» с автоматической очисткой ссылок до чистого домена.
-  * **Высококонтрастный инвертированный курсор (I-Beam)** — указатель мыши больше никогда не теряется на тёмном фоне.
   * Быстрая смена фейк-пакетов (Discord UDP Fake, Game UDP Fake) из выпадающего меню.
+
+* 📌 **Работа в системном трее Windows (System Tray):**
+  * Сворачивание в трей в один клик без захламления панели задач.
+  * Иконка в трее в реальном времени показывает статус службы (активна / остановлена).
+  * Контекстное меню быстрого управления: запуск, остановка, перезапуск службы и мгновенный доступ к окну.
+
+* 🔄 **Обновление баз и стратегий Flowseal:**
+  * Встроенная проверка новых релизов сборки `zapret-discord-youtube`.
+  * Обновление баз IPSet и списков в 1 клик.
+  * Автоматическое распознавание любых новых `.bat` стратегий при обновлении файлов сборки без потери настроек.
 
 * 🛠️ **Диагностика и сетевые инструменты:**
   * Очистка кэша DNS (`ipconfig /flushdns` в один клик).
   * Мгновенный тест доступности любого сайта через активный обход.
   * Выкатная шторка с логами работы программы и службы в реальном времени.
-  * Сворачивание в системный трей Windows.
 
 ---
 
@@ -154,14 +162,22 @@ Instead of running raw `.bat` scripts as administrator and managing Windows serv
   * Clean tabbed editor for `list-general-user.txt`, `list-exclude-user.txt`, and `ipset-exclude-user.txt`.
   * Domain search bar and real-time active entry counter.
   * Quick-Add modal with automatic URL sanitization (extracts base domain from full URLs).
-  * **High-visibility inverted text cursor (I-Beam)** — no more invisible black cursor on dark background.
   * Fake UDP package selector (Discord UDP Fake, Game UDP Fake).
+
+* 📌 **System Tray Integration:**
+  * Minimize to Windows system tray with a single click — runs quietly in the background without taskbar clutter.
+  * Live status indicator directly on the tray icon (running / stopped).
+  * Context menu for quick service controls: Start, Stop, Restart, and quick window restore.
+
+* 🔄 **Flowseal Strategy & Database Updates:**
+  * Built-in update checker for new `zapret-discord-youtube` releases by Flowseal.
+  * 1-Click updates for IPSet lists and domain databases.
+  * Seamless auto-detection of any newly added `.bat` strategy files when updating Zapret without losing your custom lists.
 
 * 🛠️ **Diagnostics & Network Utilities:**
   * 1-Click DNS cache flush (`ipconfig /flushdns`).
   * 1-Click website accessibility tester through the active bypass.
   * Live sliding log drawer for real-time output and troubleshooting.
-  * System tray integration with quick controls.
 
 ---
 
