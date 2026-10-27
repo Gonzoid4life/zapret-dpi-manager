@@ -20,7 +20,7 @@
 
 **Zapret DPI Manager** — это удобная легковесная панель управления для сборки `zapret-discord-youtube` (разработчик Flowseal) на базе оригинального пакета `zapret` (bol-van) и драйвера `WinDivert`.
 
-Вместо ручного редактирования bat-файлов, консоли служб Windows и перезапусков через командную строку — единый современный интерфейс в стиле **Windows 11 Fluent 2** с тёмной темой, автоподбором стратегий и встроенным редактором списков.
+Вместо ручного редактирования bat-файлов, консоли служб Windows и перезапусков через командную строку — единый современный интерфейс в стиле **Windows 11 Fluent 2** с поддержкой тёмной, светлой и системной тем оформления (автоматическая адаптация под Windows), автоподбором стратегий и встроенным редактором списков.
 
 > [!NOTE]
 > 💡 **Проект создан методом Vibe Coding:**
@@ -29,6 +29,10 @@
 ---
 
 ### ✨ Ключевые возможности
+
+* 🎨 **Адаптивный дизайн (Fluent 2):**
+  * Полноценная поддержка **тёмной**, **светлой** и **системной** тем оформления (автоматически переключается вместе с темой Windows).
+  * Плавные микро-анимации при наведении и выверенная типографика (Segoe UI Variable).
 
 * 🚀 **Управление службой в 1 клик:**
   * Установка, запуск, остановка и перезапуск службы Windows `zapret`.
@@ -113,7 +117,7 @@ python build_main.py
 
 **Zapret DPI Manager** is a modern, lightweight desktop graphical user interface (GUI) designed specifically for the popular **[zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)** distribution by Flowseal, powered by `zapret` (bol-van) and `WinDivert`.
 
-Instead of running raw `.bat` scripts as administrator and managing Windows services manually through the command prompt, Zapret DPI Manager provides a sleek **Windows 11 Fluent 2** control center with dark theme, automated strategy benchmarking, and an integrated rule editor.
+Instead of running raw `.bat` scripts as administrator and managing Windows services manually through the command prompt, Zapret DPI Manager provides a sleek **Windows 11 Fluent 2** control center with full support for Dark, Light, and System-adaptive themes (auto-matches your Windows appearance), automated strategy benchmarking, and an integrated rule editor.
 
 > [!NOTE]
 > 💡 **Product of Vibe Coding:**
@@ -122,6 +126,10 @@ Instead of running raw `.bat` scripts as administrator and managing Windows serv
 ---
 
 ### ✨ Features
+
+* 🎨 **Adaptive Design (Fluent 2):**
+  * Full support for **Dark**, **Light**, and **System-adaptive** themes (instantly syncs with Windows personal appearance settings).
+  * Smooth micro-animations, refined typography (Segoe UI Variable), and clean layout without visual clutter.
 
 * 🚀 **1-Click Service Control:**
   * Install, start, stop, and restart the `zapret` Windows service.
