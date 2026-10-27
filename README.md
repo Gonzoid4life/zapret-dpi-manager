@@ -79,7 +79,7 @@
 ### 📦 Использование и установка
 
 #### Вариант 1: Готовый бинарник (Рекомендуется)
-1. Скачайте `ZapretManager.exe` из раздела [Releases](https://github.com/).
+1. Скачайте `ZapretManager.exe` из раздела [Releases](https://github.com/Gonzoid4life/zapret-dpi-manager/releases).
 2. Поместите `ZapretManager.exe` в папку с установленным `zapret-discord-youtube` (рядом с bat-файлами стратегий).
 3. Запустите от имени администратора. Программа автоматически подхватит все настройки и списки!
 
@@ -87,8 +87,8 @@
 Требуется Python 3.10+ x64:
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/YOUR_USERNAME/zapret-manager.git
-cd zapret-manager
+git clone https://github.com/Gonzoid4life/zapret-dpi-manager.git
+cd zapret-dpi-manager
 
 # Установите зависимости
 pip install customtkinter pystray pillow requests urllib3
@@ -184,7 +184,7 @@ Instead of running raw `.bat` scripts as administrator and managing Windows serv
 ### 📦 Installation & Usage
 
 #### Option 1: Standalone Binary (Recommended)
-1. Download `ZapretManager.exe` from [Releases](https://github.com/).
+1. Download `ZapretManager.exe` from [Releases](https://github.com/Gonzoid4life/zapret-dpi-manager/releases).
 2. Place `ZapretManager.exe` inside your `zapret-discord-youtube` directory (alongside the `.bat` strategy files).
 3. Run as Administrator. The manager will automatically detect strategies and rule lists!
 
@@ -192,8 +192,8 @@ Instead of running raw `.bat` scripts as administrator and managing Windows serv
 Requires Python 3.10+ (64-bit):
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/zapret-manager.git
-cd zapret-manager
+git clone https://github.com/Gonzoid4life/zapret-dpi-manager.git
+cd zapret-dpi-manager
 
 # Install dependencies
 pip install customtkinter pystray pillow requests urllib3
